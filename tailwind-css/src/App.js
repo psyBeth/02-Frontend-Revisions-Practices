@@ -3,7 +3,7 @@
 // import Typography from "./components/Typography";
 // import FlexAndResponsive from "./components/FlexAndResponsive"
 
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "./components/Navbar";
 
 
 function App() {
