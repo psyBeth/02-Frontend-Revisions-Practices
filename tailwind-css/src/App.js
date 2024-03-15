@@ -2,7 +2,9 @@
 // import SpacingAndSizing from "./components/SpacingAndSizing";
 // import Typography from "./components/Typography";
 // import FlexAndResponsive from "./components/FlexAndResponsive"
-import Navbar from "./components/Navbar"
+
+import Navbar from "./components/Navbar.jsx";
+
 
 function App() {
   return (
