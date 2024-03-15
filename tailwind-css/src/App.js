@@ -2,6 +2,7 @@
 // import SpacingAndSizing from "./components/SpacingAndSizing";
 // import Typography from "./components/Typography";
 // import FlexAndResponsive from "./components/FlexAndResponsive"
+import Profile from "./pages/Profile";
 
 import Navbar from "./components/Navbar";
 
@@ -15,7 +16,7 @@ function App() {
       {/* <SpacingAndSizing /> */}
       {/* <HoverFocus /> */}
       {/* <FlexAndResponsive /> */}
-     
+      <Profile />
     </div>
   );
 }
