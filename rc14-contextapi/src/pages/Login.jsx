@@ -15,6 +15,7 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         navigate("/people")
+        // navigate(-1)  //go back where you came from
     };
 
 console.log(user);
