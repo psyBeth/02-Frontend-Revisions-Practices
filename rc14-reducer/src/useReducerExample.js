@@ -1,8 +1,8 @@
-import { useState, useReducer } from "react"
+import { useReducer } from "react"
 import { reducer } from "./reducer"
 import { initialState } from "./reducer"
 
-const UseStateExample = () => {
+const UseReducerExample = () => {
   // const [catImage, setCatImage] = useState("")
   // const [error, setError] = useState("")
   // const [loading, setLoading] = useState(false)
@@ -49,4 +49,4 @@ const UseStateExample = () => {
   )
 }
 
-export default UseStateExample
+export default UseReducerExample
