@@ -1,6 +1,9 @@
 import "./Counter.css";
 
 const Counter = () => {
+
+  //TODO: comsuming
+
   return (
     <div className="app">
       <h2 className="counter-header">Counter With Redux</h2>
