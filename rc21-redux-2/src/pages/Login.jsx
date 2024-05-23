@@ -13,10 +13,13 @@ export default function Login() {
     const [password, setPassword] = useState("")
 
     const handleSubmit = (e) => {
-        e.preventDefault()
-        setEmail("")
-        setPassword("")
-    }
+        e.preventDefault();
+        // TODO: 
+        // storing login info in global store
+        // routing process
+        setEmail("");
+        setPassword("");
+    };
 
     return (
         <Container component="main" maxWidth="xs">
