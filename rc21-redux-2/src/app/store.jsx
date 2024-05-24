@@ -6,5 +6,7 @@ export const store = configureStore({
     reducer: {
         auth: authReducer,
         newsApi: newsReducer
-    }
+    },
+    devTools: process.env.NODE_ENV !== "production",
+    //? if production phase, then the above expression returns false and therefore the devTool is unavailable.
 })
