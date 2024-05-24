@@ -5,11 +5,11 @@ const initialState = {
 }
 
 const newApiSlice = createSlice({
-  name: second,
-  initialState,
-  reducers: {}
+    name: "newsApi",
+    initialState,
+    reducers: {}
 });
 
-export const {} = newApiSlice.actions
+export const { } = newApiSlice.actions
 
 export default newApiSlice.reducer
